@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Bancário</title>
+</head>
+<body>
+    <h1>Sistema Bancário</h1>
+    <form>
+        Numero: <input id="numero" placeholder="Nº da Conta" required> <br>
+        Saldo: <input id="saldo" placeholder="Valor em R$">
+        
+        <button onclick="contaController.inserir(event)">Inserir</button>
+    </form>
+
+    <script src="js/modelo/conta.js"></script>
+    <script src="js/modelo/conta-bonificada.js"></script>
+    <script src="js/modelo/repositorio-contas.js"></script>
+    <script src="js/controlador/conta-controller.js"></script>
+    <script src="js/modelo/pessoa.js"></script>
+    <script src="js/modelo/pessoa-fisica.js"></script>
+    <script src="js/modelo/pessoa-juridica.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
